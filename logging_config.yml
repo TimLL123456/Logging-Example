@@ -1,0 +1,33 @@
+version: 1
+formatters:
+  detailed:
+    format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: DEBUG
+    formatter: detailed
+  main_file:
+    class: logging.FileHandler
+    filename: main.log
+    encoding: utf-8
+    level: INFO
+    formatter: detailed
+  db_file:
+    class: logging.FileHandler
+    filename: database.log
+    encoding: utf-8
+    level: ERROR
+    formatter: detailed
+loggers:
+  my_app.main:
+    level: DEBUG
+    handlers: [console, main_file]
+    propagate: no
+  my_app.database:
+    level: DEBUG
+    handlers: [console, db_file]
+    propagate: no
+root:
+  level: WARNING
+  handlers: [console]
