@@ -4,7 +4,7 @@ from custom_logger import *
 
 logger = logging.getLogger('my_app.data_processor')
 
-@log_function(custom_logger)
+@log_function(logger)
 def process_data(data):
     logger.info("Starting data processing")
     
