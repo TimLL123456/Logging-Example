@@ -6,6 +6,8 @@
 <details>
   <summary>Extra Information</summary>
 
+---
+
 ### UV python list
 Select python version to install
 ```bash
@@ -41,6 +43,8 @@ requires-python = ">=3.12"
 ```bash
 uv venv --python 3.11.6
 ```
+
+---
 
 </details>
 
