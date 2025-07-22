@@ -104,3 +104,9 @@ uv run python main.py
 # or 
 uv run --python 3.13 python your_script.py
 ```
+
+### 6. Install dependencies from `pyproject.toml`
+
+```bash
+uv sync
+```
