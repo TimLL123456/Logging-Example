@@ -1,9 +1,11 @@
 # Table of Content
 
-* [Logging](./Logging%20Tutorial/README.md)
+* [Git (colab)](./Git%20Tutorial%20(Colab)/Git%20Tutorial%20(Colab).md)
 
-* [UV](./UV%20Tutorial/README.md)
+* [Logging](./Logging%20Tutorial/Logging%20Tutorial.md)
 
-* [RAG](./RAG%20Tutorial/README.md)
+* [UV](./UV%20Tutorial/UV%20Tutorial.md)
 
-* [Docker](./Docker%20Tutorial/README.md)
+* [RAG](./RAG%20Tutorial/RAG%20Tutorial.md)
+
+* [Docker](./Docker%20Tutorial/Docker%20Tutorial.md)
