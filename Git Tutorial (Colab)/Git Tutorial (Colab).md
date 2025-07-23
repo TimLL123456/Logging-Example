@@ -19,6 +19,9 @@ BRANCH = "main"  # or "master"
 ```
 
 # Make your changes here or upload files to repo folder
+```bash
+# Do something
+```
 
 # Add and commit
 ```bash
