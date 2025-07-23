@@ -1,5 +1,23 @@
 # Docker Tutorial
 
+## Concept
+
+```mermaid
+flowchart LR
+    subgraph docker_container[Docker Container]
+        direction TB
+            docker_container1[Docker Container 1] --> docker_container2[Docker Container 2]
+            docker_container2 --> docker_container3[Docker Container 3]
+
+            linkStyle 0 stroke:none,stroke-width:0
+            linkStyle 1 stroke:none,stroke-width:0
+    end
+
+    docker_file[Dockerfile] --Build--> docker_image[Docker Image] --Run--> docker_container
+```
+
+## Code
+
 <details>
     <summary>Extra</summary>
 
