@@ -69,6 +69,8 @@ uv init my-project
 cd my-project
 ```
 
+* **`--bare`**: only create pyproject.toml
+
 ### 3. Install Packages
 * Add the `rich` package as a dependency
 
@@ -84,6 +86,8 @@ Installed 4 packages in 263ms
  + pygments==2.19.2
  + rich==14.0.0
 ```
+
+* **`uv add -r requirements.txt`**: Import dependencies from `requirements.txt` into the `pyproject.toml` and install them
 
 ### 4. Create a Python script using `rich`
 * Create a file named main.py with the following content:
